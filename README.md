@@ -1,24 +1,11 @@
-# vue_tl
+先把文件改回src 再npm sun serve
 
-## Project setup
-```
-npm install
-```
+props-父传子
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+$emit-子传父
 
-### Compiles and minifies for production
-```
-npm run build
-```
+ref-传参
 
-### Lints and fixes files
-```
-npm run lint
-```
+$bus-兄弟间通信
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+pubsub-发布与订阅，需要第三方库，pubsub.js
